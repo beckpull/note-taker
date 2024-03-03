@@ -121,18 +121,18 @@ _To get a local copy up and running follow these simple example steps:_
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-<div align="center">
+<!-- <div align="center">
   <a href="https://github.com/beckpull/note-taker/blob/main/assets/logo-example.png">
     <p>Here is an example of what this logo generator can do!</p>
     <img src="./assets/logo-example.png" alt="Logo" width="200" height="200">
   </a>
   <p align="right"><i>* background has been removed from this image</i></p>
 
-</div>
+</div> -->
  
 <!-- Link to video demo -->
 
- * Click [here](./output/logo.svg) to view an attached the sample SVG file (the code snippet itself) created using this generator. 
+ <!-- * Click [here](./output/logo.svg) to view an attached the sample SVG file (the code snippet itself) created using this generator.  -->
 
  * Click [here](#) to watch a demo video on how to use this application.
 
