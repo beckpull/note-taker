@@ -7,7 +7,7 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 </br>
-[![dependency - inquirer][inquirer-shield]][inquirer-url]
+
 
 <br />
 <div align="center">
@@ -77,6 +77,7 @@ A simple and easy-to-use note-taking application for you to organize your though
 ### Built With
 
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+* ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 * ![NodeJS]
 * ![jest-shield]
 
@@ -90,9 +91,10 @@ A simple and easy-to-use note-taking application for you to organize your though
 
 ### Prerequisites
 
-_This application has an Inquirer dependency and the jest DevDependency for testing purposes if interested_
+_This application has Express.js & Inquirer.js dependencies (and the jest DevDependency for testing purposes if interested)_
 * npm
   ```sh
+  npm install -g express
   npm install -g inquirer@8.2.4
   npm install -g jest
   ```
