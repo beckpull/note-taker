@@ -183,7 +183,8 @@ See the [open issues](https://github.com/beckpull/note-taker/issues) for a full 
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-(c) Beck Feltman · All rights reserved.
+</br>
+© Beck Feltman · All rights reserved.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
