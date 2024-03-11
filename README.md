@@ -77,7 +77,6 @@ A simple and easy-to-use note-taking application for you to organize your though
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 * ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 * ![NodeJS]
-* ![jest-shield]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
