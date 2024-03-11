@@ -201,7 +201,7 @@ See the [open issues](https://github.com/beckpull/note-taker/issues) for a full 
 #### Disclaimer: 
 > I utilized several articles from sources such as (but not limited to) Stack Overflow, W3Schools, and MDN Web Docs **as references** for the javascript code attached. 
 >
->**All of the utilized information has been altered in order to fit this project. This repository contains _solely_ my own work.** 
+>**All of the utilized information has been altered in order to fit this project. This repository contains Denver University starter code for the front-end and _solely_ my own work on the back-end.** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
