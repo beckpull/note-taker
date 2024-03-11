@@ -141,6 +141,7 @@ _To get a local copy up and running follow these simple example steps:_
 
 <div align="center">
   I have added in custom middleware so users on the server side can see in clearer detail which requests are being made to the server and what they all entail. I have added custom colors to each type of request as well as identifiers for each note edited.
+  </br></br>
 
   <img src="./public/assets/img/log1.png" alt="Blue GET request logs and red DELETE request logs" width="200">
   <img src="./public/assets/img/log2.png" alt="Magenta POST request logs and blue GET request logs" width="600">
