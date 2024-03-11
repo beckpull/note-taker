@@ -92,7 +92,7 @@ A simple and easy-to-use note-taking application for you to organize your though
 
 ### Prerequisites
 
-There is an Express.js dependency to run the server side of this application.
+There is an Express.js dependency (as well as the "generate-unique-id" npm package) to run the server side of this application.
 
 ### Installation
 
@@ -109,7 +109,7 @@ _To get a local copy up and running follow these simple example steps:_
    ```
 3. Node `server.js`
    ```js
-    node server.js
+   node server.js
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 

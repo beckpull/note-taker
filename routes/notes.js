@@ -1,5 +1,8 @@
+// Import necessary packages and configure new instance of Express.js Router
 const notes = require('express').Router();
+// NPM Package to generate random ID using letters and numbers
 const generateUniqueId = require('generate-unique-id');
+// fsUtils package from Express.js module 11 classwork (copy/pasted)
 const { readFromFile, readAndAppend, writeToFile } = require('../helpers/fsUtils');
 
 // GET /api/notes should read the db.json file and return all saved notes as JSON.
