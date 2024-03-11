@@ -44,5 +44,5 @@ app.post('/api/notes', (req, res) => {
 });
 
 app.listen(PORT, () =>
-    console.log(`App is listeneing at https://note-taker-uxz2.onrender.com`)
+    console.log(`App is listening at https://note-taker-uxz2.onrender.com`)
 );
