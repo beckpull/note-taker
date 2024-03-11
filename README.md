@@ -23,8 +23,6 @@ A simple and easy-to-use note-taking application for you to organize your though
     <a href="https://github.com/beckpull/note-taker"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="#">View Demo</a>
-    ·
     <a href="https://github.com/beckpull/note-taker/issues">Report Bug</a>
     ·
     <a href="https://github.com/beckpull/note-taker/issues">Request Feature</a>
@@ -66,9 +64,9 @@ A simple and easy-to-use note-taking application for you to organize your though
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-- This application is geared towards anybody looking for a simple and easy-to-use note taking application.
+- This application is geared towards anybody looking for a simple and easy-to-use note taking application that will save notes until the user is ready to delete them.
 
-- The goal of this application is for users to be able to . 
+- The goal of this application is for users to be able to store all of their busy thoughts onto one page inroder to help with time maagement and task prioritization. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,21 +83,16 @@ A simple and easy-to-use note-taking application for you to organize your though
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- <!-- GETTING STARTED -->
-<!-- ## Getting Started
+## Getting Started
 
 <p align="center"><i><strong>✨ Everything you need to know ✨</strong></i></p>
+<p align="center">There are no installation instructions for any client side operations. This section will only apply for developers wanting to set up their own local server to run this application.
+</p>
+
 
 ### Prerequisites
 
-_This application has Express.js & Inquirer.js dependencies (and the jest DevDependency for testing purposes if interested)_
-* npm
-  ```sh
-  npm i
-  ```
-  or
-  ```sh
-  npm install express
-  ```
+There is an Express.js dependency to run the server side of this application.
 
 ### Installation
 
@@ -116,51 +109,51 @@ _To get a local copy up and running follow these simple example steps:_
    ```
 3. Node `server.js`
    ```js
-   node index.js
+    node server.js
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> --> 
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-<!-- <div align="center">
-  <a href="https://github.com/beckpull/note-taker/blob/main/assets/logo-example.png">
-    <p>Here is an example of what this logo generator can do!</p>
-    <img src="./assets/logo-example.png" alt="Logo" width="200" height="200">
+
+<div align="center">
+  <a href="https://note-taker-uxz2.onrender.com">
+    <p>Here is what the webpage will look like upon opening:</p>
+    <img src="./public/assets/img/pic1.png" alt="Page with single button entitled Get Started">
   </a>
-  <p align="right"><i>* background has been removed from this image</i></p>
+    </br></br>
+  <a href="https://note-taker-uxz2.onrender.com/notes">
+    <p>Once "Get Started" is selected, you will be brought tho this page where you can then start typing and saving notes:</p>
+    <img src="./public/assets/img/pic2.png" alt="Blank notes page with no saved notes">
+  </a>
+    </br></br>
+  <a href="https://note-taker-uxz2.onrender.com/notes">
+    <p>Once entering notes, come back to the page for easy note viewing ✨</p>
+    <img src="./public/assets/img/pic3.png" alt="Notes page with two notes saved on it (grocery list and a note from Postman API tester)">
+  </a>
 
-</div> -->
- 
-<!-- Link to video demo -->
-
- <!-- * Click [here](./output/logo.svg) to view an attached the sample SVG file (the code snippet itself) created using this generator.  -->
-
- <!-- * Click [here](#) to watch a demo video on how to use this application. -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+</div>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- ROADMAP -->
-## Roadmap
+## Developer Tools
 
-<img src="./assets/img/roadmap.png">
+<div align="center">
+  I have added in custom middleware so users on the server side can see in clearer detail which requests are being made to the server and what they all entail. I have added custom colors to each type of request as well as identifiers for each note edited.
 
-<!-- GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a "Save Note" button and a "Clear Form" button appear in the navigation at the top of the page
-WHEN I click on the Save button
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes and the buttons in the navigation disappear
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column and a "New Note" button appears in the navigation
-WHEN I click on the "New Note" button in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column and the button disappears -->
+  <img src="./public/assets/img/log1.png" alt="Blue GET request logs and red DELETE request logs" width="200">
+  <img src="./public/assets/img/log2.png" alt="Magenta POST request logs and blue GET request logs" width="600">
 
+  Using Postman to test the /api/notes path will result in a JSON formatted list of all saved notes in the database.
+
+  <img src="./public/assets/img/postman.png" alt="Magenta POST request logs and blue GET request logs" width="600">
+
+  And, I added console logs there too in order to ensure requests were getting through to the server correctly:
+
+  <img src="./public/assets/img/postman-log-add.png" alt="Magenta POST request logs and blue GET request logs" width="600">
+  <img src="./public/assets/img/postman-log-delete.png" alt="Magenta POST request logs and blue GET request logs" width="600">
+</div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -184,10 +177,8 @@ See the [open issues](https://github.com/beckpull/note-taker/issues) for a full 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-</br>
+<p align='center'>Distributed under the MIT License. See `LICENSE.txt` for more information.</p>
 <p align='center'>© Beck Feltman · All rights reserved.</p>
-</br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,7 +200,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 #### Disclaimer: 
 > I utilized several articles from sources such as (but not limited to) Stack Overflow, W3Schools, and MDN Web Docs **as references** for the javascript code attached. 
 >
->**All of the utilized information has been altered in order to fit this project.** 
+>**All of the utilized information has been altered in order to fit this project. This repository contains _solely_ my own work.** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

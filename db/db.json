@@ -1,27 +1,17 @@
 [
     {
-        "title": "bgfuy",
-        "text": "kjjvkvj",
-        "id": "7h2l"
+        "title": "First note",
+        "text": "This is note text",
+        "id": "73n2"
     },
     {
-        "title": "ljkbjklbkh",
-        "text": "Uougbvihvjgv",
-        "id": "309d"
+        "title": "Where is my note",
+        "text": "note",
+        "id": "iswn"
     },
     {
-        "title": "iyvucui",
-        "text": "utcutcjcvhv",
-        "id": "a3w5"
-    },
-    {
-        "title": "iyviyv",
-        "text": "hvjhv",
-        "id": "saii"
-    },
-    {
-        "title": "postman",
-        "text": "postmann note",
-        "id": "nli3"
+        "title": "From Postman",
+        "text": "This note was sent from Postman using a POST request to https://note-taker-uxz2.onrender.com/api/notes",
+        "id": "b2bn"
     }
 ]
