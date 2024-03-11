@@ -84,8 +84,8 @@ A simple and easy-to-use note-taking application for you to organize your though
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-## Getting Started
+<!-- <!-- GETTING STARTED -->
+<!-- ## Getting Started
 
 <p align="center"><i><strong>✨ Everything you need to know ✨</strong></i></p>
 
@@ -94,9 +94,11 @@ A simple and easy-to-use note-taking application for you to organize your though
 _This application has Express.js & Inquirer.js dependencies (and the jest DevDependency for testing purposes if interested)_
 * npm
   ```sh
-  npm install -g express
-  npm install -g inquirer@8.2.4
-  npm install -g jest
+  npm i
+  ```
+  or
+  ```sh
+  npm install express
   ```
 
 ### Installation
@@ -112,12 +114,12 @@ _To get a local copy up and running follow these simple example steps:_
    ```sh
    npm i
    ```
-3. Node `index.js`
+3. Node `server.js`
    ```js
    node index.js
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> --> 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -134,7 +136,7 @@ _To get a local copy up and running follow these simple example steps:_
 
  <!-- * Click [here](./output/logo.svg) to view an attached the sample SVG file (the code snippet itself) created using this generator.  -->
 
- * Click [here](#) to watch a demo video on how to use this application.
+ <!-- * Click [here](#) to watch a demo video on how to use this application. -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
